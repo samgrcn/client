@@ -1,7 +1,7 @@
 import numpy as np
 from channel_coding import transmitter, receiver
 
-# Input message provided during demo
+# Input
 test_message = "Salut je suis heureux j aime les cerises"
 if len(test_message) != 40:
     raise ValueError("Message must be 40 characters")
